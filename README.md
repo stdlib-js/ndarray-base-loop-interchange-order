@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-loopOrder = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@umd/browser.js' )
+loopOrder = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var loopOrder = require( 'path/to/vendor/umd/ndarray-base-loop-interchange-order
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -151,7 +151,7 @@ For all returned arrays, the first element corresponds to the innermost loop, an
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
