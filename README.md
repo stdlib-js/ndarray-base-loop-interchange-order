@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import loopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-loop-interchange-order/tags). For example,
+
+```javascript
 import loopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@v0.1.1-deno/mod.js';
 ```
 
@@ -124,7 +129,7 @@ For all returned arrays, the first element corresponds to the innermost loop, an
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@deno/mod.js';
 import getStrides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@deno/mod.js';
-import loopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@v0.1.1-deno/mod.js';
+import loopOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-loop-interchange-order@deno/mod.js';
 
 // Create ndarrays:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
