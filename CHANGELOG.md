@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-10-02)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`96ed2fa`](https://github.com/stdlib-js/stdlib/commit/96ed2faff14d10a798f3d84d267a26e7a78b0759) - return loop permutation indices from `ndarray/base/*loop-interchange-order` packages [(#15812)](https://github.com/stdlib-js/stdlib/pull/15812)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`96ed2fa`](https://github.com/stdlib-js/stdlib/commit/96ed2faff14d10a798f3d84d267a26e7a78b0759) - **fix:** return loop permutation indices from `ndarray/base/*loop-interchange-order` packages [(#15812)](https://github.com/stdlib-js/stdlib/pull/15812) _(by Kaustubh Patange)_
 -   [`ad3f046`](https://github.com/stdlib-js/stdlib/commit/ad3f04667c2cc32b6e749d8b08259afecff3f1e8) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11434)](https://github.com/stdlib-js/stdlib/pull/11434) _(by Karan Anand)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Kaustubh Patange
 
 </section>
 
